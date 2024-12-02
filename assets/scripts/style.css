@@ -1,0 +1,51 @@
+body{
+    font-family: Ubuntu, Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+header{
+    text-shadow: #1ec495 2px;
+    box-shadow: #1ec495 0px 0 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.menu_bu_div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menu_bu{
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+}
+a:visited, a {
+    color: #1ec495;
+}
+.menu_deroulementPartie{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    border-color: #1ec495;
+}
+#menu_bu1 .menu_deroulementPartie{
+    display: none;
+}
+#menu_bu1:hover .menu_deroulementPartie:hover{
+    display: block;
+}
