@@ -3,6 +3,7 @@ body{
     background-color: #333;
     color: white;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 header{
@@ -21,31 +22,112 @@ footer{
     position: fixed;
     width: 100%;
 }
+ul{
+    list-style-position: inside;
+}
 .menu_bu_div{
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 .menu_bu{
     border-color: #1ec495;
     background-color: #2e2a2a;
     color: white;
-    width: 20%;
-    height: auto;
     font-size: 15px;
+    width: 100%;
+    height: auto;
 }
 a:visited, a {
     color: #1ec495;
 }
-.menu_deroulementPartie{
+.menu_deroulementPartie {
+    display: none;
     position: fixed;
-    top: 100px;
-    left: 100px;
+    top: 120px;
+    left: 10px;
     border-color: #1ec495;
 }
-#menu_bu1 .menu_deroulementPartie{
+.menu_class {
     display: none;
+    position: fixed;
+    top: 120px;
+    left: 10px;
+    border-color: #1ec495;
 }
-#menu_bu1:hover .menu_deroulementPartie:hover{
+.menu_djItem {
+    display: none;
+    position: fixed;
+    top: 120px;
+    left: 10px;
+    border-color: #1ec495;
+}
+.menu_merchant {
+    display: none;
+    position: fixed;
+    top: 120px;
+    left: 10px;
+    border-color: #1ec495;
+}
+.menu_aboutpage {
+    display: none;
+    position: fixed;
+    top: 120px;
+    left: 10px;
+    border-color: #1ec495;
+}
+.menu_container{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+.menu_container:hover .menu_deroulementPartie {
     display: block;
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    width: 100%;
+}
+.menu_container:hover .menu_class {
+    display: block;
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    width: 100%;
+}
+.menu_container:hover .menu_djItem {
+    display: block;
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    width: 100%;
+}
+.menu_container:hover .menu_merchant {
+    display: block;
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    width: 100%;
+}
+.menu_container:hover .menu_aboutpage {
+    display: block;
+    border-color: #1ec495;
+    background-color: #2e2a2a;
+    color: white;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    width: 100%;
 }
